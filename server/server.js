@@ -73,8 +73,8 @@ app.post('/add-state', async (req, res) => {
             page.click(SAVE_BTN_SEL),
         ]);
     }
-
-    await browser.close();
+    console.log('Deploy completed successfully');
+    // await browser.close();
     res.json({ status: 'success' });
   } catch (error) {
     console.error(error);
