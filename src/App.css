@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.submit-value{
+  margin: 20px;
+  padding: 10px;
+  background: aliceblue;
+  color: blueviolet;
+  border-radius: 5px;
+}
+.submit-value-disabled{
+  filter: brightness(0.5);
+}
+.submit-value-disabled:hover{
+    cursor: not-allowed; 
+}
+
+.submit-value-enabled:hover{
+  cursor: pointer; 
+  filter: brightness(0.8);
+}
+.submit-value-enabled:active{
+  cursor: pointer; 
+  filter: brightness(0.6);
+}
